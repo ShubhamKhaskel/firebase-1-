@@ -1,0 +1,59 @@
+.body
+{
+   background-color: rgb(239, 197, 145); 
+}
+.center-box
+{
+  position: absolute;  
+  top: 20%;
+  left: 30%;  
+  transform: translate(50%,50%);
+  border: 2px solid black;
+  border-radius: 40px;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+}
+
+.text-field
+{
+    padding:10px 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: medium;  
+}
+.btn-style
+{
+    padding:10px 30px;
+    border:1px solid black;
+    border-radius: 10px;
+    background: rgb(177, 233, 177);
+    color:rgb(59, 58, 58);
+}
+.btn-style:hover
+{
+   background-color: green;
+   color: white;
+}
+.an-btn
+{
+    margin-top:2px;
+    border: 0;
+    background-color:rgb(239, 197, 145);
+    color:rgb(59, 58, 58);
+}
+#register-div
+{
+    display:none;
+}
+#result-box
+{
+    display: none;
+    position: absolute;  
+    top: 20%;
+    left: 30%;  
+    transform: translate(50%,50%);
+    font-size: 14pt;
+    color: white;
+}
